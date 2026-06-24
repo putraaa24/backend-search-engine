@@ -8,7 +8,7 @@ const app = express();
 app.use(
   cors({
     methods: ['GET'],
-    origin: 'http://localhost:5173/',
+    origin: 'http://localhost:5173',
   }),
 );
 app.use(express.json());
