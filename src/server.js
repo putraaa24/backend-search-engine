@@ -27,7 +27,6 @@ app.get('/api/search', async (req, res) => {
       highlightPreTag:
         '<mark class="bg-yellow-200 text-black p-0.5 rounded font-semibold">',
       highlightPostTag: '</mark>',
-      limit: 20,
     });
 
     res.json(hasil);
